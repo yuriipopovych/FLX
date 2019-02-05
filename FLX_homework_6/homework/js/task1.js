@@ -12,18 +12,13 @@ function quadraticEquation () {
 		if ( discriminant > 0) {
 			var x1 = (-b + Math.sqrt(discriminant)) / ( 2 * a);
 			var x2 = (-b - Math.sqrt(discriminant)) / ( 2 * a);
-			var result = "x1 = " + x1 + ";" + " x2 = " + x2 + ";";
-			console.log(result);
+			alert("x1 = " + x1 + ";" + " x2 = " + x2 + ";");
 		} else if ( discriminant === 0 ) {
 			var x = -b / (2 *a);
-			var result = "x = " + x + ";";
-			console.log(result);
+			alert("x = " + x + ";");
 		} else {
-			var result = "no solution";
-			console.log(result);
+			alert("no solution");
 		}
 	}
-
 }
 quadraticEquation();
-console.log('dsds');
