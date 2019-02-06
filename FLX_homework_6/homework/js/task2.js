@@ -9,6 +9,8 @@ function calculatorOfDiscount () {
 					"\nPrice with discount: " + price.toFixed(2) + ";" +
 					"\nSaved: " + savedMoney.toFixed(2) + ";" 
 		alert(result);
+	} else {
+		alert("invalid data")
 	}
 }
 calculatorOfDiscount();
